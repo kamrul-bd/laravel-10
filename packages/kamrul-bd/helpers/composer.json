@@ -1,0 +1,20 @@
+{
+    "name": "kamrul/helpers",
+    "description": "helper",
+    "type": "helpers",
+    "autoload": {
+        "psr-4": {
+            "Kamrul\\Helpers\\": "src/"
+        },
+        "files": [
+            "src/test.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kamrul islam",
+            "email": "kamrul.bdit24@gmail.com"
+        }
+    ],
+    "require": {}
+}
