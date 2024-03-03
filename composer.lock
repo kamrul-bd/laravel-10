@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "98538e8f8063368c8b5c94ecb170d9c4",
     "packages": [
         {
             "name": "brick/math",
@@ -1044,6 +1044,46 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "kamrul-bd/helpers",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kamrul-bd/helpers.git",
+                "reference": "7cfc2b30b9f24d0e5a9da1fd82a40ff7cb5dd98d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kamrul-bd/helpers/zipball/7cfc2b30b9f24d0e5a9da1fd82a40ff7cb5dd98d",
+                "reference": "7cfc2b30b9f24d0e5a9da1fd82a40ff7cb5dd98d",
+                "shasum": ""
+            },
+            "type": "helpers",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Kamrul\\Helpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kamrul islam",
+                    "email": "kamrul.bdit24@gmail.com"
+                }
+            ],
+            "description": "helper",
+            "support": {
+                "issues": "https://github.com/kamrul-bd/helpers/issues",
+                "source": "https://github.com/kamrul-bd/helpers/tree/v1.0.0"
+            },
+            "time": "2024-03-02T21:56:25+00:00"
         },
         {
             "name": "laravel/framework",

@@ -7,7 +7,7 @@
             "Kamrul\\Helpers\\": "src/"
         },
         "files": [
-            "src/test.php"
+            "src/helpers.php"
         ]
     },
     "authors": [
