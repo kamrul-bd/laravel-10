@@ -11,6 +11,14 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+
+        <link rel="stylesheet" href="{{ asset('assets/css/colorbox.css') }}" />
+
+        <script src="{{ asset('assets/js/jquery.colorbox.js') }}"></script>
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -41,5 +49,7 @@
         @stack('modals')
 
         @livewireScripts
+        <script type="text/javascript" src="/packages/barryvdh/elfinder/js/standalonepopup.min.js"></script>
+        <script src="{{ asset('assets/js/jquery.colorbox-min.js') }}"></script>
     </body>
 </html>
